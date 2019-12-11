@@ -1,0 +1,17 @@
+h1 {
+  color: white;
+  background-color: #1B85B8;
+  text-align: center;
+  padding: 20px;
+  margin-top: -10px;
+	}
+body {
+	background-color: #f0ead6;
+}
+img {
+	height: 300px;
+	width: 300px;
+}
+div.column {
+	display: inline-table;               
+}

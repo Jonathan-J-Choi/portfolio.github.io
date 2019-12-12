@@ -2,13 +2,26 @@ html {
   height: 100%;
   box-sizing: border-box;
 }
+
 h1 {
   color: white;
   background-color: #1B85B8;
   text-align: center;
 	padding: 20px;
-	margin: -10px;
-	}
+	margin: -5px;
+  }
+
+nav {
+  text-align: right;
+  background-color: #2471A3;
+  padding: 5px;
+  margin: -5px;
+}
+
+.navi{
+  color: white;
+}
+
 body {
   background-color: #f0ead6;
   position: relative;
@@ -16,15 +29,35 @@ body {
   padding-bottom: 6rem;
   min-height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-	font-size: large;	
+  font-size: large;	
 }
+
 img {
 	height: 500px;
-	width: 500px;
+  width: 500px;
+  padding: 25px 20px 20px 20px;
 }
+
+.pbody {
+  padding: 20px;
+}
+
+.bold1 {
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.bold2 {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 20px;
+}
+
 div.column1 div.column2 {
 	display: inline-table;               
 }
+
 footer {
   position: absolute;
   right: 0;

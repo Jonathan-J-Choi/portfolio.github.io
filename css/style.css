@@ -20,10 +20,6 @@ nav {
   margin: -5px;
 }
 
-.navi{
-  color: white;
-}
-
 body {
   background-color: #f0ead6;
   position: relative;
@@ -43,7 +39,9 @@ img {
 .pbody {
   padding: 20px;
 }
-
+.list{
+  margin-left: 20px;
+}
 .bold1 {
   font-size: large;
   font-weight: bold;
@@ -57,7 +55,7 @@ img {
 }
 
 div.column1 div.column2 {
-	display: inline-table;               
+	display: inline-block;               
 }
 
 footer {
@@ -71,3 +69,23 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+.button {
+  background-color: #2454A3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+  background-color:#2441A3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: translateY(4px);

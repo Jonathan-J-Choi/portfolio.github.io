@@ -58,8 +58,8 @@ img {
   padding: 20px;
 }
 
-div.column1 div.column2 {
-	display: inline-table;               
+div.column1, div.column2 {
+	display: inline-block;               
 }
 
 footer {
@@ -93,4 +93,10 @@ footer {
   background-color:#2441A3;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   transform: translateY(4px);
+}
+label {
+  display:block;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: 80px;
 }

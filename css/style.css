@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 	padding: 20px;
   margin: -5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, serif;
   font-weight: bolder;
   }
 
@@ -28,6 +28,10 @@ body {
   min-height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;	
+}
+
+.centered{
+  margin: 10px 500px 10px 500px;
 }
 
 img {
@@ -55,7 +59,7 @@ img {
 }
 
 div.column1 div.column2 {
-	display: inline-block;               
+	display: inline-table;               
 }
 
 footer {

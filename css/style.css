@@ -86,8 +86,10 @@ footer {
   left: 0;
   background-color: #1B85B8;
   text-align: center;
+  
 }
   .foot{
+    position: relative;
     height: 50px;
     width: 50px;
   }
@@ -118,11 +120,12 @@ label {
   display:block;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-left: 45em;
+  margin-left: 40em;
   text-decoration: underline;
 }
 input, textarea {
-  margin-left: 60.5em;
+  margin-left: 53.9em;
+  width: 29em;
 }
 .sub{
   background-color: #2454A3;
@@ -132,7 +135,7 @@ input, textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 50.5em;
+  margin-left: 45em;
   border-radius: 12px;
   cursor: pointer;
 }

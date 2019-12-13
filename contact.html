@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Contact Me</title>
    <link rel="icon" type="image/png" href="assets\piefavi.png">
+   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Montserrat&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="css\style.css">
 </head>
 
@@ -18,33 +19,40 @@
     <form>
         <p>
             <label>First Name</label>
-            <input type="text" name="namef"/>
+            <input type="text" name="namef" required/>
         </p>
 
         <p>
             <label>Last Name</label>
-            <input type="text" name="namel"/>
+            <input type="text" name="namel" required/>
+        </p>
+
+        <p>
+            <label for="phone">Daytime Phone Number</label>
+            <input type="tel" id="phone" name="phone"cpattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
         </p>
 
         <p>
             <label>E-mail</label>
-            <input type="text" name="email"/>
+            <input type="text" name="email" required/>
         </p>
         <p>
             <label>Comments, Questions, and Concerns</label>
-            <textarea></textarea>
+            <textarea rows="20" cols="50"></textarea>
         </p>
 
         <button type="submit" name="submit">Submit</button>
     </form>
-        
+    
     
 </body>
 
 <br><br><br><br><br>
 
-<footer>
-        <p>Posted by: Jonathan Choi</p>
-				<p>Inquiries here: <a href="mailto:jonathan.junghoon.jhoi@gmail.com"> Jonathan.Junghoon.Choi@Gmail.Com</a></p>
-				<p>Work Phone Number (###)-###-####</p>
-</footer>
+<p> 
+    <a href="https://github.com/MrBachChoi?tab=repositories" target="_blank"><img class="foot" src="assets\gh.png"></a>
+    <a href="mailto:jonathan.junghoon.choi@gmail.com" target="_blank"><img class="foot" src="assets\gm.png"></a>
+    <a href="https://www.facebook.com/MrBachChoi" target="_blank"><img class="foot" src="assets\fb.png"></a>
+    <a href="https://www.instagram.com/mrbachchoi/" target="_blank"><img class="foot" src="assets\ig.png"></a>
+    <a href="https://www.linkedin.com/in/jonathan-choi-036732137/" target="_blank"><img class="foot" src="assets\lin.png"></a>
+</p>

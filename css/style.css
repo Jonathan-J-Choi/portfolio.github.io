@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
 }
 
-h1, footer {
+h1, h2 {
   color: white;
   background-color: #1B85B8;
   text-align: center;
@@ -12,6 +12,11 @@ h1, footer {
   font-family:'Arima Madurai', cursive;
   font-weight: bolder;
   }
+
+h2 {
+  padding:5px;
+  margin:-.65em
+}
 
 nav {
   text-align: right;
@@ -46,9 +51,11 @@ img {
 .pbody {
   padding: 20px;
 }
+
 .list{
   margin-left: 20px;
 }
+
 .bold1, .bold2 {
   font-size: large;
   font-weight: bold;
@@ -63,24 +70,27 @@ img {
 div.col-container {
   position: relative;
 }
-
-div.column1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.column2 {
+  div.column1 {
+    position: absolute;
+    top: 0;
+   left: 0;
+  }
+  .column2 {
   margin-left: 550px;            
-}
+  }
 
 footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1em;
+  background-color: #1B85B8;
+  text-align: center;
 }
+  .foot{
+    height: 50px;
+    width: 50px;
+  }
 
 .button {
   background-color: #2454A3;
@@ -95,25 +105,35 @@ footer {
   border-radius: 12px;
   cursor: pointer;
 }
-.button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.button:active {
-  background-color:#2441A3;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: translateY(4px);
-}
-.foot{
-  height: 50px;
-  width: 50px;
-}
+  .button:hover, .sub {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button:active, .sub {
+    background-color:#2441A3;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(4px);
+  }
+
 label {
   display:block;
   font-weight: bold;
   margin-bottom: 0px;
-  margin-left: 50px;
+  margin-left: 45em;
   text-decoration: underline;
 }
-input, button, textarea {
-  margin-left: 50px;
+input, textarea {
+  margin-left: 60.5em;
 }
+.sub{
+  background-color: #2454A3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 50.5em;
+  border-radius: 12px;
+  cursor: pointer;
+}
+

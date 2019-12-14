@@ -37,7 +37,9 @@ body {
 }
 
 .centered{
-  margin-top: 30px;
+  margin-top: 50px;
+  text-indent: 70px;
+  margin-right: 50px;
 }
 
 img {
@@ -47,6 +49,13 @@ img {
   margin-top: 1em;
   margin-left: 10px;
 }
+.portphoto {
+  margin-left: 2em;
+}
+.ppic {
+  height: 310.4px;
+  width: 467.2px;
+}
 
 .pbody {
   padding: 20px;
@@ -54,17 +63,6 @@ img {
 
 .list{
   margin-left: 20px;
-}
-
-.bold1, .bold2 {
-  font-size: large;
-  font-weight: bold;
-  padding: 20px;
-}
-
-.bold2 {
-  font-size: xx-large;
-  font-weight: bolder;
 }
 
 div.col-container {

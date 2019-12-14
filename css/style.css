@@ -105,24 +105,20 @@ footer {
   border-radius: 12px;
   cursor: pointer;
 }
-  .button:hover, .sub {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .button:active, .sub {
-    background-color:#2441A3;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    transform: translateY(4px);
-  }
+
+.white-box {
+  background-color: white;
+  color: black;
+}
 
 label {
   display:block;
   font-weight: bold;
-  margin-bottom: 0px;
-  margin-left: 40em;
   text-decoration: underline;
+  margin-left: 42.3em;
 }
 input, textarea {
-  margin-left: 53.9em;
+  margin-left: 57em;
   width: 29em;
 }
 .sub{
@@ -133,8 +129,17 @@ input, textarea {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 45em;
   border-radius: 12px;
   cursor: pointer;
+  margin-bottom: 1em;
+  margin-left: 56em;
+}
+.button:hover, .sub {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active, .sub {
+  background-color:#2441A3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: translateY(4px);
 }
 
